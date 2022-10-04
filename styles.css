@@ -1,0 +1,18 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}
+#mathstable{
+  margin-left:auto;
+  margin-right:auto;
+}
+table,td,th{
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:10px;
+}
+#unorder,#order{
+  list-style-position:inside;
+}

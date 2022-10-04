@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML WEBPAGE</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="styles.css" />
+<script type="module" src="script.js"></script>
+</head>
+<h1><u>HTML WEBPAGE</u></h1>
+<pre>
+  <a href="#Hyperlinks">Jump to Hyperlinks</a> 
+  <a href="#image">Jump to image displaying</a>
+  <a href="#citations">Jump to quotes</a>
+  <a href="#embeddedstyle">Jump to embedded style sheets</a>
+  <a href="#addingtables">Jump to Tables</a>
+  <a href="#unorderedlist">Jump to lists</a>
+  <a href="#formquestions">Jump to forms</a>
+</pre>
+<hr>
+<h2 id="Hyperlinks">Hyperlinks</h2>
+  <p>The line below will contain a link that leads to Google in a   new window</p>
+<a href="https://www.google.com/" target="_blank">Google</a>
+<br>
+<br>
+<hr>
+<h2 id="image">Displaying images</h2>
+<p>Below is an image of a cat</p>
+<img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="Cat image" width="250" height="125">
+<br>
+<br>
+<br>
+<hr>
+<h2 id="citations">Quotes</h2>
+<p>Below is a quote from Albert Einstein</p>
+<blockquote>
+    <p>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</p>
+    <cite>— Albert Einstein</cite>
+</blockquote>
+<br>
+<br>
+<br>
+<hr>
+<h2 id="embeddedstyle">Embedded style sheets</h2>
+  <style type="text/css">
+    #p3{color:blue;}
+    #heading3{color:yellow;}
+</style>
+<h3 id="heading3">This heading is in yellow</h3>
+<p id ="p3">This text is in blue</p>  
+<br>
+<br>
+<br>
+<hr>
+<h2 id="addingtables">Tables</h2>
+<p>Below is a table that shows two numbers and the product of those numbers
+<table id="mathstable">
+    <tr>
+      <th>Number1</th>
+      <th>Number2</th>
+      <th>Product</th>
+    <tr>
+      <td>2</td>
+      <td>6</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>7</td>
+      <td>56</td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<hr>
+<h2 id="unorderedlist">Unordered list</h2>
+<ul id="unorder">
+  <li>Pineapple</li>
+  <li>Strawberry</li>
+  <li>Banana</li>
+</ul>
+<h2>Ordered list</h2>
+<ol id="order">
+  <li>Pick up phone</li>
+  <li>Turn phone on</li>
+  <li>Use phone</li>
+</ol>
+<br>
+<br>
+<br>
+<hr>
+<h2 id="formquestions">Forms</h2>
+<p>Below will be a form to fill out</p>
+<form>
+    <p>Are you?</p>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+    <br>
+</form>
+<form>
+        <p>
+            What is your name?
+            <br>
+            <br>
+            <input type="text" name="first-name">
+            <button type="submit" value="Submit">Submit</button>
+           <button type="reset" value="Reset">Reset</button>
+        </p>
+</form>
+
+
+   
+ 
+</html>
